@@ -1,0 +1,39 @@
+.Wrapper {
+  width: 500px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.Wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Wrapper form input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  border: rgba(0, 0, 0, 0.2) 1px solid;
+  overflow: hidden;
+}
+
+.Wrapper form input:last-child {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.error {
+  display: block;
+  padding: 10px 0;
+  color: red;
+}
+.switch {
+  margin: 15px 0;
+}
+.switch a {
+  text-decoration: none;
+  color: inherit;
+}
