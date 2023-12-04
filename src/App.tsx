@@ -1,8 +1,15 @@
+import { Outlet } from 'react-router-dom'
+
+// components
+import Layout from './components/Layout'
+
 function App() {
   return (
-    <>
-      <h1>Initial</h1>
-    </>
+    <Layout>
+      <section>
+        <Outlet />
+      </section>
+    </Layout>
   )
 }
 
